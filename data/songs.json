@@ -1,0 +1,290 @@
+[
+  {
+    "id": "1",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "genre": "Rock",
+    "year": "1975",
+    "album": "A Night at the Opera",
+    "artistInfo": "Queen are a British rock band formed in London in 1970. The band comprised Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.",
+    "albumInfo": "A Night at the Opera is the fourth studio album by the British rock band Queen, released on 21 November 1975. It was produced by Roy Thomas Baker and Queen, and reportedly was the most expensive album ever recorded at the time of its release.",
+    "history": [
+      {
+        "date": "October 1975",
+        "event": "Recording completed at various studios including Rockfield, Roundhouse, and Sarm Studios"
+      },
+      {
+        "date": "November 1975",
+        "event": "Album released, featuring the iconic 'Bohemian Rhapsody'"
+      },
+      {
+        "date": "1976",
+        "event": "Song becomes one of the most celebrated rock songs of all time"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "year": "1983",
+    "album": "Thriller",
+    "artistInfo": "Michael Joseph Jackson was an American singer, songwriter, and dancer. Dubbed the 'King of Pop', he is regarded as one of the most significant cultural figures of the 20th century. Over a four-decade career, his contributions to music, dance, and fashion, along with his publicized personal life, made him a global figure in popular culture.",
+    "albumInfo": "Thriller is the sixth studio album by American singer Michael Jackson, released on November 30, 1982. It is the best-selling album of all time, with estimated sales of 66 million copies worldwide.",
+    "history": [
+      {
+        "date": "1982",
+        "event": "Song written and composed by Michael Jackson"
+      },
+      {
+        "date": "January 1983",
+        "event": "Released as the second single from Thriller"
+      },
+      {
+        "date": "March 1983",
+        "event": "Reached number one on the Billboard Hot 100"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Take Five",
+    "artist": "Dave Brubeck Quartet",
+    "genre": "Jazz",
+    "year": "1959",
+    "album": "Time Out",
+    "artistInfo": "The Dave Brubeck Quartet was an American jazz quartet founded in 1951 by Dave Brubeck and featuring Paul Desmond on saxophone. The group is best known for their use of unusual time signatures and polyrhythmic structures.",
+    "albumInfo": "Time Out is a studio album by the Dave Brubeck Quartet, released in 1959 on Columbia Records. Recorded at Columbia's 30th Street Studio in New York City, it is based upon the use of time signatures that were unusual for jazz such as 9/8, 6/4 and 5/4.",
+    "history": [
+      {
+        "date": "1959",
+        "event": "Composed by Paul Desmond during a tour"
+      },
+      {
+        "date": "July 1959",
+        "event": "Recorded for the Time Out album"
+      },
+      {
+        "date": "1961",
+        "event": "Became the biggest-selling jazz single ever"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "genre": "Electronic",
+    "year": "2000",
+    "album": "Discovery",
+    "artistInfo": "Daft Punk were a French electronic music duo formed in 1993 in Paris by Guy-Manuel de Homem-Christo and Thomas Bangalter. They achieved popularity in the late 1990s as part of the French house movement and had success in the years following, combining elements of house music with funk, techno, disco, indie rock and pop.",
+    "albumInfo": "Discovery is the second studio album by French electronic music duo Daft Punk, released on 12 March 2001. It marks a shift from the Chicago house sound prevalent on their first studio album, Homework (1997), to a house style more heavily inspired by disco, post-disco, garage house, and R&B.",
+    "history": [
+      {
+        "date": "2000",
+        "event": "Song produced and recorded in Paris"
+      },
+      {
+        "date": "November 2000",
+        "event": "Released as the lead single from Discovery"
+      },
+      {
+        "date": "2001",
+        "event": "Became one of Daft Punk's most successful singles"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "genre": "Hip-Hop",
+    "year": "2002",
+    "album": "8 Mile Soundtrack",
+    "artistInfo": "Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, and record producer. He is credited with popularizing hip hop in Middle America and is critically acclaimed as one of the greatest rappers of all time.",
+    "albumInfo": "Music from and Inspired by the Motion Picture 8 Mile is the official soundtrack to the 2002 movie of the same name. The album, performed by various artists, was released under Shady Records.",
+    "history": [
+      {
+        "date": "2002",
+        "event": "Written for the film 8 Mile"
+      },
+      {
+        "date": "October 2002",
+        "event": "Released as the lead single from the soundtrack"
+      },
+      {
+        "date": "2003",
+        "event": "Won Academy Award for Best Original Song"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "genre": "Rock",
+    "year": "1971",
+    "album": "Led Zeppelin IV",
+    "artistInfo": "Led Zeppelin were an English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist/keyboardist John Paul Jones, and drummer John Bonham. They are widely considered one of the most successful, innovative, and influential rock groups in history.",
+    "albumInfo": "The untitled fourth studio album by the English rock band Led Zeppelin, commonly known as Led Zeppelin IV, was released on 8 November 1971. It is one of the best-selling albums worldwide at 37 million copies.",
+    "history": [
+      {
+        "date": "1970",
+        "event": "Jimmy Page began composing the music"
+      },
+      {
+        "date": "1971",
+        "event": "Recorded at Headley Grange using the Rolling Stones Mobile Studio"
+      },
+      {
+        "date": "November 1971",
+        "event": "Released as part of Led Zeppelin IV"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "year": "2017",
+    "album": "÷ (Divide)",
+    "artistInfo": "Edward Christopher Sheeran is an English singer-songwriter. Born in Halifax, West Yorkshire, he was brought up in Framlingham, Suffolk. He began writing songs around the age of eleven and has sold more than 150 million records worldwide.",
+    "albumInfo": "÷ (Divide) is the third studio album by English singer-songwriter Ed Sheeran. It was released on 3 March 2017 through Asylum Records and Atlantic Records. The album debuted at number one in the UK, US and other major markets.",
+    "history": [
+      {
+        "date": "2016",
+        "event": "Written and recorded for the Divide album"
+      },
+      {
+        "date": "January 2017",
+        "event": "Released as the lead single"
+      },
+      {
+        "date": "2017-2018",
+        "event": "Became one of the best-selling digital singles of all time"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "So What",
+    "artist": "Miles Davis",
+    "genre": "Jazz",
+    "year": "1959",
+    "album": "Kind of Blue",
+    "artistInfo": "Miles Dewey Davis III was an American trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz.",
+    "albumInfo": "Kind of Blue is a studio album by American jazz trumpeter Miles Davis. It was recorded on March 2 and April 22, 1959, at Columbia's 30th Street Studio in New York City, and released on August 17 of that year by Columbia Records. It is regarded as one of the greatest jazz albums of all time.",
+    "history": [
+      {
+        "date": "March 1959",
+        "event": "Recorded in just two sessions"
+      },
+      {
+        "date": "August 1959",
+        "event": "Released as part of Kind of Blue"
+      },
+      {
+        "date": "1959-Present",
+        "event": "Became one of the most recognizable jazz compositions"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "genre": "Electronic",
+    "year": "1997",
+    "album": "Homework",
+    "artistInfo": "Daft Punk were a French electronic music duo formed in 1993 in Paris. They achieved popularity in the late 1990s as part of the French house movement, pioneering the use of synthesizers and samplers in electronic dance music.",
+    "albumInfo": "Homework is the debut studio album by the French electronic music duo Daft Punk, released on 20 January 1997. It is a blend of techno, house, and funk, and features the singles 'Around the World' and 'Da Funk'.",
+    "history": [
+      {
+        "date": "1996",
+        "event": "Produced in Daft Punk's home studio"
+      },
+      {
+        "date": "March 1997",
+        "event": "Released as a single with iconic music video"
+      },
+      {
+        "date": "1997",
+        "event": "Helped establish Daft Punk as electronic music pioneers"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Sicko Mode",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop",
+    "year": "2018",
+    "album": "Astroworld",
+    "artistInfo": "Jacques Bermon Webster II, known professionally as Travis Scott, is an American rapper, singer, songwriter, and record producer. His musical style has been described as a fusion of traditional hip hop, lo-fi and ambient.",
+    "albumInfo": "Astroworld is the third studio album by American rapper Travis Scott. It was released on August 3, 2018, through Cactus Jack Records and Grand Hustle Records. The album features guest vocals from Drake, Frank Ocean, The Weeknd, and more.",
+    "history": [
+      {
+        "date": "2018",
+        "event": "Produced with multiple beat switches and features"
+      },
+      {
+        "date": "August 2018",
+        "event": "Released as part of Astroworld album"
+      },
+      {
+        "date": "2018-2019",
+        "event": "Became Travis Scott's highest-charting solo single"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "genre": "Rock",
+    "year": "1987",
+    "album": "Appetite for Destruction",
+    "artistInfo": "Guns N' Roses is an American hard rock band from Los Angeles, California, formed in 1985. The lineup, when first signed to Geffen Records in 1986, consisted of vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler.",
+    "albumInfo": "Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses. It was released on July 21, 1987, by Geffen Records. It became the best-selling debut album of all time, as well as the eleventh best-selling album of all time in the United States.",
+    "history": [
+      {
+        "date": "1986",
+        "event": "Written by the band, inspired by Slash's guitar riff"
+      },
+      {
+        "date": "1987",
+        "event": "Recorded for Appetite for Destruction"
+      },
+      {
+        "date": "1988",
+        "event": "Released as third single, reached #1 on Billboard Hot 100"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "genre": "Pop",
+    "year": "2019",
+    "album": "After Hours",
+    "artistInfo": "Abel Makkonen Tesfaye, known professionally as The Weeknd, is a Canadian singer, songwriter, and record producer. He is noted for his unconventional music production, artistic reinventions, and his signature use of the falsetto register.",
+    "albumInfo": "After Hours is the fourth studio album by Canadian singer The Weeknd, released on March 20, 2020. It features a 1980s-inspired sound and explores themes of heartbreak, loneliness, and self-reflection.",
+    "history": [
+      {
+        "date": "2019",
+        "event": "Written and produced with Max Martin and Oscar Holter"
+      },
+      {
+        "date": "November 2019",
+        "event": "Released as the second single from After Hours"
+      },
+      {
+        "date": "2020-2021",
+        "event": "Became the longest-charting song in Billboard Hot 100 history"
+      }
+    ]
+  }
+]

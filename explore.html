@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Music - Songilar</title>
+  <link rel="stylesheet" href="styles/globals.css">
+  <link rel="stylesheet" href="styles/explore.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+   Navigation 
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">🎵</div>
+        <span>Songilar</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="explore.html" class="nav-link active">Explore</a></li>
+        <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="playlist.html" class="nav-link" id="playlistLink">My Playlists</a></li>
+        <li><a href="register.html" class="nav-link" id="registerLink">Register</a></li>
+        <li><a href="login.html" class="nav-link" id="authLink">Login</a></li>
+      </ul>
+      <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    </div>
+  </nav>
+
+   Explore Section 
+  <section class="explore-section">
+    <div class="container">
+      <div class="explore-header">
+        <h1 class="page-title">Explore Music</h1>
+        <p class="page-subtitle">Discover your next favorite song from our vast collection</p>
+      </div>
+
+       Search Bar 
+      <div class="search-container">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Search for songs, artists, albums, or genres..."
+            autocomplete="off"
+          >
+          <button class="clear-btn" id="clearBtn">✕</button>
+        </div>
+        <div class="search-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="rock">Rock</button>
+          <button class="filter-btn" data-filter="pop">Pop</button>
+          <button class="filter-btn" data-filter="jazz">Jazz</button>
+          <button class="filter-btn" data-filter="electronic">Electronic</button>
+          <button class="filter-btn" data-filter="hip-hop">Hip-Hop</button>
+        </div>
+      </div>
+
+       Results Info 
+      <div class="results-info" id="resultsInfo">
+        <span id="resultsCount">Showing all songs</span>
+      </div>
+
+       Music Grid 
+      <div class="music-grid" id="musicGrid">
+         Music cards will be dynamically inserted here 
+      </div>
+
+       Loading State 
+      <div class="loading" id="loading" style="display: none;">
+        <div class="loading-spinner"></div>
+        <p>Loading music...</p>
+      </div>
+
+       No Results 
+      <div class="no-results" id="noResults" style="display: none;">
+        <div class="no-results-icon">🎵</div>
+        <h3>No songs found</h3>
+        <p>Try adjusting your search or filters</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/explore.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
