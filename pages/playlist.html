@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Song Details - Songilar</title>
+  <title>My Playlists - Songilar</title>
   <link rel="stylesheet" href="styles/globals.css">
-  <link rel="stylesheet" href="styles/song-detail.css">
+  <link rel="stylesheet" href="styles/playlist.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-   Navigation 
+    
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="index.html" class="nav-logo">
@@ -21,7 +21,7 @@
         <li><a href="explore.html" class="nav-link">Explore</a></li>
         <li><a href="about.html" class="nav-link">About Us</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
-        <li><a href="playlist.html" class="nav-link" id="playlistLink">My Playlists</a></li>
+        <li><a href="playlist.html" class="nav-link active" id="playlistLink">My Playlists</a></li>
         <li><a href="register.html" class="nav-link" id="registerLink">Register</a></li>
         <li><a href="login.html" class="nav-link" id="authLink">Login</a></li>
       </ul>
@@ -29,19 +29,22 @@
     </div>
   </nav>
 
-   Song Detail Section 
-  <section class="song-detail-section">
+   
+  <section class="playlist-section">
     <div class="container">
-      <a href="explore.html" class="back-btn">← Back to Explore</a>
-      
-      <div class="song-detail-container" id="songDetailContainer">
-         Content will be dynamically loaded 
+      <div class="playlist-header">
+        <h1 class="page-title">My Playlists</h1>
+        <p class="page-subtitle">Manage your favorite music collections</p>
+      </div>
+
+      <div class="playlist-content" id="playlistContent">
+         Playlists will be dynamically loaded 
       </div>
     </div>
   </section>
 
   <script src="scripts/auth.js"></script>
-  <script src="scripts/song-detail.js"></script>
+  <script src="scripts/playlist.js"></script>
   <script src="scripts/main.js"></script>
 </body>
 </html>
