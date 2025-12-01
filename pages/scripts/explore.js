@@ -35,8 +35,8 @@ function displaySongs(songs) {
     .map(
       (song) => `
     <div class="music-card">
-      <div class="music-card-image" style="background: linear-gradient(135deg, ${getRandomGradient()})">
-        🎵
+      <div class="music-card-image">
+        <img src="${song.cover}" alt="${song.album} album cover" onerror="this.style.display='none'; this.parentElement.innerHTML='🎵';">
       </div>
       <div class="music-card-content">
         <h3 class="music-card-title">${song.title}</h3>
@@ -145,7 +145,7 @@ function addToPlaylist(songId) {
   const song = allSongs.find((s) => s.id === songId)
 
   if (!song) {
-    alert("Song not found")
+    showToast("Song not found", "error")
     return
   }
 
@@ -154,14 +154,14 @@ function addToPlaylist(songId) {
 
   // Check if song already in playlist
   if (playlist.find((s) => s.id === songId)) {
-    alert("Song already in your playlist!")
+    showToast("Song already in your playlist!", "warning")
     return
   }
 
   playlist.push(song)
   localStorage.setItem("myPlaylist", JSON.stringify(playlist))
 
-  alert("Song added to your playlist!")
+  showToast("Song added to your playlist!", "success")
 }
 
 // Helper function for random gradients
@@ -180,4 +180,16 @@ function getRandomGradient() {
 function showNoResults() {
   document.getElementById("noResults").style.display = "block"
   document.getElementById("musicGrid").innerHTML = ""
+}
+
+// Helper function to show toast messages
+function showToast(message, type) {
+  const toast = document.createElement("div")
+  toast.className = `toast ${type}`
+  toast.textContent = message
+  document.body.appendChild(toast)
+
+  setTimeout(() => {
+    document.body.removeChild(toast)
+  }, 3000)
 }

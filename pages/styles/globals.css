@@ -518,6 +518,120 @@ body {
   box-shadow: 0 0 0 3px rgba(255, 51, 102, 0.1);
 }
 
+/* Custom Toast Notifications */
+.toast-container {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toast {
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 280px;
+  max-width: 400px;
+  box-shadow: var(--shadow-lg);
+  animation: toastSlideIn 0.4s ease forwards;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.toast:hover {
+  transform: translateX(-5px);
+}
+
+.toast.toast-hide {
+  animation: toastSlideOut 0.4s ease forwards;
+}
+
+.toast-success {
+  background: linear-gradient(135deg, #00c853, #00e676);
+}
+
+.toast-error {
+  background: linear-gradient(135deg, #ff3d00, #ff6e40);
+}
+
+.toast-warning {
+  background: linear-gradient(135deg, #ff9100, #ffab40);
+}
+
+.toast-info {
+  background: linear-gradient(135deg, var(--color-secondary), #00f0ff);
+  color: var(--color-bg);
+}
+
+.toast-icon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.toast-message {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.toast-close {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity var(--transition-fast);
+  padding: 0;
+  line-height: 1;
+}
+
+.toast-close:hover {
+  opacity: 1;
+}
+
+@keyframes toastSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes toastSlideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .toast-container {
+    left: 20px;
+    right: 20px;
+    top: 80px;
+  }
+
+  .toast {
+    min-width: auto;
+    max-width: none;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-menu {

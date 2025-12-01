@@ -1,290 +1,1201 @@
 [
   {
     "id": "1",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "genre": "Grunge",
+    "year": "1991",
+    "album": "Nevermind",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers, most notably Dave Grohl, who joined in 1990. Nirvana is often credited as the band that popularized grunge and alternative rock.",
+    "albumInfo": "Nevermind is the second studio album by American rock band Nirvana, released on September 24, 1991, by DGC Records. It was Nirvana's first release on a major label and the first to feature drummer Dave Grohl.",
+    "history": [
+      { "date": "1991", "event": "Written by Kurt Cobain, inspired by the Pixies' sound" },
+      { "date": "September 1991", "event": "Released as lead single from Nevermind" },
+      { "date": "January 1992", "event": "Reached #6 on Billboard Hot 100, defining the grunge era" }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "genre": "Grunge",
+    "year": "1994",
+    "album": "Superunknown",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Soundgarden was an American rock band formed in Seattle, Washington, in 1984 by singer Chris Cornell, guitarist Kim Thayil, and bassist Hiro Yamamoto. They were one of the seminal bands of the grunge movement.",
+    "albumInfo": "Superunknown is the fourth studio album by Soundgarden. Released on March 8, 1994, it became the band's breakthrough album and featured their biggest hit singles.",
+    "history": [
+      { "date": "1993", "event": "Written by Chris Cornell after waking from a dream" },
+      { "date": "1994", "event": "Released as second single, won Grammy for Best Hard Rock Performance" },
+      { "date": "1994", "event": "Music video became MTV staple with surreal imagery" }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Jeremy",
+    "artist": "Pearl Jam",
+    "genre": "Grunge",
+    "year": "1991",
+    "album": "Ten",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Pearl Jam is an American rock band formed in Seattle, Washington, in 1990. The band's lineup consists of Eddie Vedder (vocals), Mike McCready (lead guitar), Stone Gossard (rhythm guitar), Jeff Ament (bass), and Matt Cameron (drums).",
+    "albumInfo": "Ten is the debut studio album by Pearl Jam, released on August 27, 1991. It has been certified 13x platinum in the United States.",
+    "history": [
+      { "date": "1991", "event": "Written about a real student, Jeremy Wade Delle" },
+      { "date": "1992", "event": "Released as third single from Ten" },
+      { "date": "1993", "event": "Music video won four MTV Video Music Awards" }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Man in the Box",
+    "artist": "Alice in Chains",
+    "genre": "Grunge",
+    "year": "1990",
+    "album": "Facelift",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Alice in Chains is an American rock band from Seattle, Washington, formed in 1987. The band helped develop the grunge genre and is known for their distinctive vocal style featuring harmonies between Layne Staley and Jerry Cantrell.",
+    "albumInfo": "Facelift is the debut studio album by Alice in Chains, released on August 21, 1990. It was the first grunge album to be certified gold and platinum.",
+    "history": [
+      { "date": "1990", "event": "Written by Jerry Cantrell and Layne Staley" },
+      { "date": "1991", "event": "Released as single, became MTV hit" },
+      { "date": "1991", "event": "Helped establish Alice in Chains as grunge pioneers" }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "genre": "Metal",
+    "year": "1991",
+    "album": "Metallica (Black Album)",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Metallica is an American heavy metal band formed in Los Angeles in 1981. The band's current lineup comprises founding members James Hetfield (vocals/guitar) and Lars Ulrich (drums), along with Kirk Hammett (guitar) and Robert Trujillo (bass).",
+    "albumInfo": "Metallica, commonly known as The Black Album, is the fifth studio album by Metallica, released on August 12, 1991. It is one of the best-selling albums worldwide with over 30 million copies sold.",
+    "history": [
+      { "date": "1990", "event": "Kirk Hammett wrote the main riff at 3am" },
+      { "date": "August 1991", "event": "Released as lead single from The Black Album" },
+      { "date": "1991-present", "event": "Became Metallica's signature song and metal anthem" }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Master of Puppets",
+    "artist": "Metallica",
+    "genre": "Metal",
+    "year": "1986",
+    "album": "Master of Puppets",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Metallica is an American heavy metal band formed in Los Angeles in 1981. They are one of the 'Big Four' of thrash metal alongside Megadeth, Anthrax, and Slayer.",
+    "albumInfo": "Master of Puppets is the third studio album by Metallica, released on March 3, 1986. It is considered one of the greatest and most influential heavy metal albums of all time.",
+    "history": [
+      { "date": "1985", "event": "Written about drug addiction and control" },
+      { "date": "March 1986", "event": "Released as title track of the album" },
+      { "date": "2022", "event": "Resurgence in popularity after Stranger Things Season 4" }
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "genre": "Metal",
+    "year": "1970",
+    "album": "Paranoid",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Black Sabbath were an English rock band formed in Birmingham in 1968. Widely considered pioneers of heavy metal music, the group consisted of Ozzy Osbourne, Tony Iommi, Geezer Butler, and Bill Ward.",
+    "albumInfo": "Paranoid is the second studio album by Black Sabbath, released on 18 September 1970. It is often considered one of the greatest and most influential albums in heavy metal history.",
+    "history": [
+      { "date": "1970", "event": "Written in just 20 minutes as a filler track" },
+      { "date": "September 1970", "event": "Released as single, reached #4 in UK" },
+      { "date": "1970-present", "event": "Became one of metal's most recognizable songs" }
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Iron Man",
+    "artist": "Black Sabbath",
+    "genre": "Metal",
+    "year": "1970",
+    "album": "Paranoid",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Black Sabbath were an English rock band formed in Birmingham in 1968. They are often cited as pioneers of heavy metal music and have sold over 70 million records worldwide.",
+    "albumInfo": "Paranoid is the second studio album by Black Sabbath. The album has been certified 4x platinum in the US and is considered a landmark in heavy metal.",
+    "history": [
+      { "date": "1970", "event": "Tony Iommi created the iconic main riff" },
+      { "date": "1970", "event": "Originally titled 'Iron Bloke' before Ozzy renamed it" },
+      { "date": "1971", "event": "Released as single, became signature Black Sabbath song" }
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Ace of Spades",
+    "artist": "Motörhead",
+    "genre": "Metal",
+    "year": "1980",
+    "album": "Ace of Spades",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Motörhead were an English rock band formed in June 1975 by bassist, singer, and songwriter Lemmy Kilmister. They are often considered a precursor to the new wave of British heavy metal.",
+    "albumInfo": "Ace of Spades is the fourth studio album by Motörhead, released on 8 November 1980. It is widely considered the band's magnum opus.",
+    "history": [
+      { "date": "1980", "event": "Written about gambling and living on the edge" },
+      { "date": "November 1980", "event": "Released as title track and lead single" },
+      { "date": "1980-present", "event": "Became Motörhead's most famous song" }
+    ]
+  },
+  {
+    "id": "10",
     "title": "Bohemian Rhapsody",
     "artist": "Queen",
     "genre": "Rock",
     "year": "1975",
     "album": "A Night at the Opera",
-    "artistInfo": "Queen are a British rock band formed in London in 1970. The band comprised Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.",
-    "albumInfo": "A Night at the Opera is the fourth studio album by the British rock band Queen, released on 21 November 1975. It was produced by Roy Thomas Baker and Queen, and reportedly was the most expensive album ever recorded at the time of its release.",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Queen are a British rock band formed in London in 1970. The band comprised Freddie Mercury (lead vocals, piano), Brian May (guitar, vocals), Roger Taylor (drums, vocals) and John Deacon (bass).",
+    "albumInfo": "A Night at the Opera is the fourth studio album by Queen, released on 21 November 1975. It was reportedly the most expensive album ever recorded at the time.",
     "history": [
-      {
-        "date": "October 1975",
-        "event": "Recording completed at various studios including Rockfield, Roundhouse, and Sarm Studios"
-      },
-      {
-        "date": "November 1975",
-        "event": "Album released, featuring the iconic 'Bohemian Rhapsody'"
-      },
-      {
-        "date": "1976",
-        "event": "Song becomes one of the most celebrated rock songs of all time"
-      }
+      { "date": "October 1975", "event": "Recording completed at various studios" },
+      { "date": "November 1975", "event": "Released, featuring the iconic operatic section" },
+      { "date": "1976", "event": "Became one of the most celebrated rock songs ever" }
     ]
   },
   {
-    "id": "2",
-    "title": "Billie Jean",
-    "artist": "Michael Jackson",
-    "genre": "Pop",
-    "year": "1983",
-    "album": "Thriller",
-    "artistInfo": "Michael Joseph Jackson was an American singer, songwriter, and dancer. Dubbed the 'King of Pop', he is regarded as one of the most significant cultural figures of the 20th century. Over a four-decade career, his contributions to music, dance, and fashion, along with his publicized personal life, made him a global figure in popular culture.",
-    "albumInfo": "Thriller is the sixth studio album by American singer Michael Jackson, released on November 30, 1982. It is the best-selling album of all time, with estimated sales of 66 million copies worldwide.",
-    "history": [
-      {
-        "date": "1982",
-        "event": "Song written and composed by Michael Jackson"
-      },
-      {
-        "date": "January 1983",
-        "event": "Released as the second single from Thriller"
-      },
-      {
-        "date": "March 1983",
-        "event": "Reached number one on the Billboard Hot 100"
-      }
-    ]
-  },
-  {
-    "id": "3",
-    "title": "Take Five",
-    "artist": "Dave Brubeck Quartet",
-    "genre": "Jazz",
-    "year": "1959",
-    "album": "Time Out",
-    "artistInfo": "The Dave Brubeck Quartet was an American jazz quartet founded in 1951 by Dave Brubeck and featuring Paul Desmond on saxophone. The group is best known for their use of unusual time signatures and polyrhythmic structures.",
-    "albumInfo": "Time Out is a studio album by the Dave Brubeck Quartet, released in 1959 on Columbia Records. Recorded at Columbia's 30th Street Studio in New York City, it is based upon the use of time signatures that were unusual for jazz such as 9/8, 6/4 and 5/4.",
-    "history": [
-      {
-        "date": "1959",
-        "event": "Composed by Paul Desmond during a tour"
-      },
-      {
-        "date": "July 1959",
-        "event": "Recorded for the Time Out album"
-      },
-      {
-        "date": "1961",
-        "event": "Became the biggest-selling jazz single ever"
-      }
-    ]
-  },
-  {
-    "id": "4",
-    "title": "One More Time",
-    "artist": "Daft Punk",
-    "genre": "Electronic",
-    "year": "2000",
-    "album": "Discovery",
-    "artistInfo": "Daft Punk were a French electronic music duo formed in 1993 in Paris by Guy-Manuel de Homem-Christo and Thomas Bangalter. They achieved popularity in the late 1990s as part of the French house movement and had success in the years following, combining elements of house music with funk, techno, disco, indie rock and pop.",
-    "albumInfo": "Discovery is the second studio album by French electronic music duo Daft Punk, released on 12 March 2001. It marks a shift from the Chicago house sound prevalent on their first studio album, Homework (1997), to a house style more heavily inspired by disco, post-disco, garage house, and R&B.",
-    "history": [
-      {
-        "date": "2000",
-        "event": "Song produced and recorded in Paris"
-      },
-      {
-        "date": "November 2000",
-        "event": "Released as the lead single from Discovery"
-      },
-      {
-        "date": "2001",
-        "event": "Became one of Daft Punk's most successful singles"
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "title": "Lose Yourself",
-    "artist": "Eminem",
-    "genre": "Hip-Hop",
-    "year": "2002",
-    "album": "8 Mile Soundtrack",
-    "artistInfo": "Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, and record producer. He is credited with popularizing hip hop in Middle America and is critically acclaimed as one of the greatest rappers of all time.",
-    "albumInfo": "Music from and Inspired by the Motion Picture 8 Mile is the official soundtrack to the 2002 movie of the same name. The album, performed by various artists, was released under Shady Records.",
-    "history": [
-      {
-        "date": "2002",
-        "event": "Written for the film 8 Mile"
-      },
-      {
-        "date": "October 2002",
-        "event": "Released as the lead single from the soundtrack"
-      },
-      {
-        "date": "2003",
-        "event": "Won Academy Award for Best Original Song"
-      }
-    ]
-  },
-  {
-    "id": "6",
+    "id": "11",
     "title": "Stairway to Heaven",
     "artist": "Led Zeppelin",
     "genre": "Rock",
     "year": "1971",
     "album": "Led Zeppelin IV",
-    "artistInfo": "Led Zeppelin were an English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist/keyboardist John Paul Jones, and drummer John Bonham. They are widely considered one of the most successful, innovative, and influential rock groups in history.",
-    "albumInfo": "The untitled fourth studio album by the English rock band Led Zeppelin, commonly known as Led Zeppelin IV, was released on 8 November 1971. It is one of the best-selling albums worldwide at 37 million copies.",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Led Zeppelin were an English rock band formed in London in 1968. The group consisted of vocalist Robert Plant, guitarist Jimmy Page, bassist John Paul Jones, and drummer John Bonham.",
+    "albumInfo": "Led Zeppelin IV was released on 8 November 1971. It is one of the best-selling albums worldwide at 37 million copies.",
     "history": [
-      {
-        "date": "1970",
-        "event": "Jimmy Page began composing the music"
-      },
-      {
-        "date": "1971",
-        "event": "Recorded at Headley Grange using the Rolling Stones Mobile Studio"
-      },
-      {
-        "date": "November 1971",
-        "event": "Released as part of Led Zeppelin IV"
-      }
+      { "date": "1970", "event": "Jimmy Page began composing the music" },
+      { "date": "1971", "event": "Recorded at Headley Grange" },
+      { "date": "November 1971", "event": "Released as part of Led Zeppelin IV" }
     ]
   },
   {
-    "id": "7",
-    "title": "Shape of You",
-    "artist": "Ed Sheeran",
-    "genre": "Pop",
-    "year": "2017",
-    "album": "÷ (Divide)",
-    "artistInfo": "Edward Christopher Sheeran is an English singer-songwriter. Born in Halifax, West Yorkshire, he was brought up in Framlingham, Suffolk. He began writing songs around the age of eleven and has sold more than 150 million records worldwide.",
-    "albumInfo": "÷ (Divide) is the third studio album by English singer-songwriter Ed Sheeran. It was released on 3 March 2017 through Asylum Records and Atlantic Records. The album debuted at number one in the UK, US and other major markets.",
-    "history": [
-      {
-        "date": "2016",
-        "event": "Written and recorded for the Divide album"
-      },
-      {
-        "date": "January 2017",
-        "event": "Released as the lead single"
-      },
-      {
-        "date": "2017-2018",
-        "event": "Became one of the best-selling digital singles of all time"
-      }
-    ]
-  },
-  {
-    "id": "8",
-    "title": "So What",
-    "artist": "Miles Davis",
-    "genre": "Jazz",
-    "year": "1959",
-    "album": "Kind of Blue",
-    "artistInfo": "Miles Dewey Davis III was an American trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music. Davis adopted a variety of musical directions in a five-decade career that kept him at the forefront of many major stylistic developments in jazz.",
-    "albumInfo": "Kind of Blue is a studio album by American jazz trumpeter Miles Davis. It was recorded on March 2 and April 22, 1959, at Columbia's 30th Street Studio in New York City, and released on August 17 of that year by Columbia Records. It is regarded as one of the greatest jazz albums of all time.",
-    "history": [
-      {
-        "date": "March 1959",
-        "event": "Recorded in just two sessions"
-      },
-      {
-        "date": "August 1959",
-        "event": "Released as part of Kind of Blue"
-      },
-      {
-        "date": "1959-Present",
-        "event": "Became one of the most recognizable jazz compositions"
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "title": "Around the World",
-    "artist": "Daft Punk",
-    "genre": "Electronic",
-    "year": "1997",
-    "album": "Homework",
-    "artistInfo": "Daft Punk were a French electronic music duo formed in 1993 in Paris. They achieved popularity in the late 1990s as part of the French house movement, pioneering the use of synthesizers and samplers in electronic dance music.",
-    "albumInfo": "Homework is the debut studio album by the French electronic music duo Daft Punk, released on 20 January 1997. It is a blend of techno, house, and funk, and features the singles 'Around the World' and 'Da Funk'.",
-    "history": [
-      {
-        "date": "1996",
-        "event": "Produced in Daft Punk's home studio"
-      },
-      {
-        "date": "March 1997",
-        "event": "Released as a single with iconic music video"
-      },
-      {
-        "date": "1997",
-        "event": "Helped establish Daft Punk as electronic music pioneers"
-      }
-    ]
-  },
-  {
-    "id": "10",
-    "title": "Sicko Mode",
-    "artist": "Travis Scott",
-    "genre": "Hip-Hop",
-    "year": "2018",
-    "album": "Astroworld",
-    "artistInfo": "Jacques Bermon Webster II, known professionally as Travis Scott, is an American rapper, singer, songwriter, and record producer. His musical style has been described as a fusion of traditional hip hop, lo-fi and ambient.",
-    "albumInfo": "Astroworld is the third studio album by American rapper Travis Scott. It was released on August 3, 2018, through Cactus Jack Records and Grand Hustle Records. The album features guest vocals from Drake, Frank Ocean, The Weeknd, and more.",
-    "history": [
-      {
-        "date": "2018",
-        "event": "Produced with multiple beat switches and features"
-      },
-      {
-        "date": "August 2018",
-        "event": "Released as part of Astroworld album"
-      },
-      {
-        "date": "2018-2019",
-        "event": "Became Travis Scott's highest-charting solo single"
-      }
-    ]
-  },
-  {
-    "id": "11",
+    "id": "12",
     "title": "Sweet Child O' Mine",
     "artist": "Guns N' Roses",
     "genre": "Rock",
     "year": "1987",
     "album": "Appetite for Destruction",
-    "artistInfo": "Guns N' Roses is an American hard rock band from Los Angeles, California, formed in 1985. The lineup, when first signed to Geffen Records in 1986, consisted of vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler.",
-    "albumInfo": "Appetite for Destruction is the debut studio album by American hard rock band Guns N' Roses. It was released on July 21, 1987, by Geffen Records. It became the best-selling debut album of all time, as well as the eleventh best-selling album of all time in the United States.",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Guns N' Roses is an American hard rock band from Los Angeles, California, formed in 1985. The classic lineup featured Axl Rose, Slash, Izzy Stradlin, Duff McKagan, and Steven Adler.",
+    "albumInfo": "Appetite for Destruction is the debut studio album by Guns N' Roses, released on July 21, 1987. It became the best-selling debut album of all time.",
     "history": [
-      {
-        "date": "1986",
-        "event": "Written by the band, inspired by Slash's guitar riff"
-      },
-      {
-        "date": "1987",
-        "event": "Recorded for Appetite for Destruction"
-      },
-      {
-        "date": "1988",
-        "event": "Released as third single, reached #1 on Billboard Hot 100"
-      }
+      { "date": "1986", "event": "Written by the band, inspired by Slash's guitar warm-up riff" },
+      { "date": "1987", "event": "Recorded for Appetite for Destruction" },
+      { "date": "1988", "event": "Reached #1 on Billboard Hot 100" }
     ]
   },
   {
-    "id": "12",
+    "id": "13",
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "genre": "Rock",
+    "year": "1980",
+    "album": "Back in Black",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "AC/DC are an Australian rock band formed in Sydney in 1973 by Scottish-born brothers Malcolm and Angus Young. They are considered pioneers of hard rock and heavy metal.",
+    "albumInfo": "Back in Black is the seventh studio album by AC/DC, released on 25 July 1980. It is the best-selling album by a band and the second best-selling album of all time.",
+    "history": [
+      { "date": "1980", "event": "Written as tribute to former singer Bon Scott" },
+      { "date": "July 1980", "event": "Released with new singer Brian Johnson" },
+      { "date": "1980-present", "event": "Became one of rock's most iconic songs" }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Highway to Hell",
+    "artist": "AC/DC",
+    "genre": "Rock",
+    "year": "1979",
+    "album": "Highway to Hell",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "AC/DC are an Australian rock band formed in Sydney in 1973. Known for their energetic performances and iconic guitar riffs, they have sold over 200 million records worldwide.",
+    "albumInfo": "Highway to Hell is the sixth studio album by AC/DC, released on 27 July 1979. It was the last album to feature lead singer Bon Scott before his death.",
+    "history": [
+      { "date": "1979", "event": "Written about the rigors of touring" },
+      { "date": "July 1979", "event": "Released as title track" },
+      { "date": "1979", "event": "Became AC/DC's first album to break US Top 100" }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Creep",
+    "artist": "Radiohead",
+    "genre": "Alternative",
+    "year": "1992",
+    "album": "Pablo Honey",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Radiohead are an English rock band formed in Abingdon, Oxfordshire, in 1985. The band consists of Thom Yorke, Jonny Greenwood, Ed O'Brien, Colin Greenwood, and Philip Selway.",
+    "albumInfo": "Pablo Honey is the debut studio album by Radiohead, released on 22 February 1993. The album is known for the breakthrough single 'Creep'.",
+    "history": [
+      { "date": "1992", "event": "Written by the band in the late 1980s" },
+      { "date": "September 1992", "event": "Released as single, initially flopped in UK" },
+      { "date": "1993", "event": "Became international hit after US radio play" }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "genre": "Alternative",
+    "year": "1997",
+    "album": "OK Computer",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Radiohead are an English rock band known for their experimental approach to rock music. They are considered one of the most influential bands of their generation.",
+    "albumInfo": "OK Computer is the third studio album by Radiohead, released on 21 May 1997. It is often cited as one of the greatest albums of all time.",
+    "history": [
+      { "date": "1996", "event": "Written during OK Computer sessions" },
+      { "date": "August 1997", "event": "Released as second single from the album" },
+      { "date": "1997", "event": "Music video directed by Jonathan Glazer became iconic" }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "genre": "Alternative",
+    "year": "1991",
+    "album": "Out of Time",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "R.E.M. was an American rock band from Athens, Georgia, formed in 1980 by drummer Bill Berry, guitarist Peter Buck, bassist Mike Mills, and lead vocalist Michael Stipe.",
+    "albumInfo": "Out of Time is the seventh studio album by R.E.M., released on March 12, 1991. It became the band's commercial breakthrough.",
+    "history": [
+      { "date": "1990", "event": "Written by Peter Buck on a mandolin" },
+      { "date": "February 1991", "event": "Released as lead single" },
+      { "date": "1992", "event": "Won three Grammy Awards including Best Pop Performance" }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "genre": "Alternative",
+    "year": "1995",
+    "album": "(What's the Story) Morning Glory?",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Oasis were an English rock band formed in Manchester in 1991. The band consisted of Liam Gallagher, Noel Gallagher, Paul Arthurs, Paul McGuigan, and Tony McCarroll.",
+    "albumInfo": "(What's the Story) Morning Glory? is the second studio album by Oasis, released on 2 October 1995. It became one of the best-selling albums in UK chart history.",
+    "history": [
+      { "date": "1995", "event": "Written by Noel Gallagher about his then-girlfriend" },
+      { "date": "October 1995", "event": "Released as fourth single from the album" },
+      { "date": "1995-present", "event": "Became one of the most covered songs in history" }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "genre": "Alternative",
+    "year": "1991",
+    "album": "Blood Sugar Sex Magik",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. Their music incorporates elements of alternative rock, funk, punk rock, and psychedelic rock.",
+    "albumInfo": "Blood Sugar Sex Magik is the fifth studio album by Red Hot Chili Peppers, released on September 24, 1991. It is their most commercially successful album.",
+    "history": [
+      { "date": "1991", "event": "Written by Anthony Kiedis about loneliness and drug addiction" },
+      { "date": "March 1992", "event": "Released as second single, reached #2 on Billboard Hot 100" },
+      { "date": "1992", "event": "Became band's signature ballad" }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "year": "1983",
+    "album": "Thriller",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Michael Joseph Jackson was an American singer, songwriter, and dancer. Dubbed the 'King of Pop', he is regarded as one of the most significant cultural figures of the 20th century.",
+    "albumInfo": "Thriller is the sixth studio album by Michael Jackson, released on November 30, 1982. It is the best-selling album of all time with estimated sales of 66 million copies.",
+    "history": [
+      { "date": "1982", "event": "Written and composed by Michael Jackson" },
+      { "date": "January 1983", "event": "Released as second single from Thriller" },
+      { "date": "March 1983", "event": "Reached number one on the Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Beat It",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "year": "1982",
+    "album": "Thriller",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Michael Jackson was known for his contributions to music, dance, and fashion. His videos, including those for 'Beat It' and 'Thriller', are credited with breaking racial barriers on MTV.",
+    "albumInfo": "Thriller spent nearly 2.5 years on the Billboard 200 chart and won a record-breaking eight Grammy Awards in 1984.",
+    "history": [
+      { "date": "1982", "event": "Written by Jackson with guitar solo by Eddie Van Halen" },
+      { "date": "February 1983", "event": "Released as third single from Thriller" },
+      { "date": "1984", "event": "Won two Grammy Awards including Record of the Year" }
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "genre": "Pop",
+    "year": "1989",
+    "album": "Like a Prayer",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Madonna Louise Ciccone is an American singer-songwriter and actress. Referred to as the 'Queen of Pop', she is known for pushing the boundaries of artistic expression in mainstream music.",
+    "albumInfo": "Like a Prayer is the fourth studio album by Madonna, released on March 21, 1989. It received widespread critical acclaim for its artistic depth.",
+    "history": [
+      { "date": "1988", "event": "Written by Madonna and Patrick Leonard" },
+      { "date": "March 1989", "event": "Released as lead single with controversial music video" },
+      { "date": "1989", "event": "Reached #1 in over 30 countries" }
+    ]
+  },
+  {
+    "id": "23",
     "title": "Blinding Lights",
     "artist": "The Weeknd",
     "genre": "Pop",
     "year": "2019",
     "album": "After Hours",
-    "artistInfo": "Abel Makkonen Tesfaye, known professionally as The Weeknd, is a Canadian singer, songwriter, and record producer. He is noted for his unconventional music production, artistic reinventions, and his signature use of the falsetto register.",
-    "albumInfo": "After Hours is the fourth studio album by Canadian singer The Weeknd, released on March 20, 2020. It features a 1980s-inspired sound and explores themes of heartbreak, loneliness, and self-reflection.",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Abel Makkonen Tesfaye, known as The Weeknd, is a Canadian singer, songwriter, and record producer noted for his unconventional music production and signature falsetto.",
+    "albumInfo": "After Hours is the fourth studio album by The Weeknd, released on March 20, 2020. It features a 1980s-inspired synth-pop sound.",
     "history": [
+      { "date": "2019", "event": "Written with Max Martin and Oscar Holter" },
+      { "date": "November 2019", "event": "Released as second single from After Hours" },
+      { "date": "2020-2021", "event": "Became longest-charting song in Billboard Hot 100 history" }
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "genre": "Pop",
+    "year": "2017",
+    "album": "÷ (Divide)",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Edward Christopher Sheeran is an English singer-songwriter. He began writing songs around age eleven and has sold more than 150 million records worldwide.",
+    "albumInfo": "÷ (Divide) is the third studio album by Ed Sheeran, released on March 3, 2017. It debuted at number one in the UK, US, and other major markets.",
+    "history": [
+      { "date": "2016", "event": "Originally written for Rihanna" },
+      { "date": "January 2017", "event": "Released as lead single" },
+      { "date": "2017-2018", "event": "Became one of the best-selling digital singles ever" }
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "genre": "Pop",
+    "year": "2019",
+    "album": "When We All Fall Asleep, Where Do We Go?",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Billie Eilish Pirate Baird O'Connell is an American singer and songwriter. She first gained attention in 2015 with her debut single 'Ocean Eyes'.",
+    "albumInfo": "When We All Fall Asleep, Where Do We Go? is the debut studio album by Billie Eilish, released on March 29, 2019. It debuted at number one in multiple countries.",
+    "history": [
+      { "date": "2018", "event": "Written and produced with brother Finneas O'Connell" },
+      { "date": "March 2019", "event": "Released as third single from debut album" },
+      { "date": "2020", "event": "Won Record of the Year and Song of the Year at Grammy Awards" }
+    ]
+  },
+  {
+    "id": "26",
+    "title": "No Scrubs",
+    "artist": "TLC",
+    "genre": "R&B",
+    "year": "1999",
+    "album": "FanMail",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "TLC was an American girl group whose original line-up consisted of Tionne 'T-Boz' Watkins, Lisa 'Left Eye' Lopes, and Rozonda 'Chilli' Thomas.",
+    "albumInfo": "FanMail is the third studio album by TLC, released on February 23, 1999. It won the Grammy Award for Best R&B Album.",
+    "history": [
+      { "date": "1999", "event": "Written by Kandi Burruss and Kevin 'She'kspere' Briggs" },
+      { "date": "February 1999", "event": "Released as lead single, topped Billboard Hot 100" },
+      { "date": "1999", "event": "Became cultural phenomenon and feminist anthem" }
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Halo",
+    "artist": "Beyoncé",
+    "genre": "R&B",
+    "year": "2008",
+    "album": "I Am... Sasha Fierce",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Beyoncé Giselle Knowles-Carter is an American singer, songwriter, and actress. She rose to fame in the late 1990s as the lead singer of Destiny's Child.",
+    "albumInfo": "I Am... Sasha Fierce is the third studio album by Beyoncé, released on November 18, 2008. It is a double album showcasing two sides of the artist.",
+    "history": [
+      { "date": "2008", "event": "Written by Ryan Tedder and Evan Bogart" },
+      { "date": "January 2009", "event": "Released as fourth single" },
+      { "date": "2010", "event": "Won Grammy Award for Best Female Pop Vocal Performance" }
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Confessions Part II",
+    "artist": "Usher",
+    "genre": "R&B",
+    "year": "2004",
+    "album": "Confessions",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Usher Raymond IV is an American singer, songwriter, dancer, and actor. He is one of the best-selling music artists of all time.",
+    "albumInfo": "Confessions is the fourth studio album by Usher, released on March 23, 2004. It has sold over 20 million copies worldwide.",
+    "history": [
+      { "date": "2004", "event": "Written about personal relationship experiences" },
+      { "date": "July 2004", "event": "Released as fourth single from Confessions" },
+      { "date": "2004", "event": "Reached number one on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "29",
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "genre": "R&B",
+    "year": "1992",
+    "album": "The Bodyguard Soundtrack",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Whitney Elizabeth Houston was an American singer and actress. She is one of the best-selling music artists of all time, with over 200 million records sold worldwide.",
+    "albumInfo": "The Bodyguard: Original Soundtrack Album was released on November 17, 1992. It became one of the best-selling soundtracks of all time.",
+    "history": [
+      { "date": "1973", "event": "Originally written and recorded by Dolly Parton" },
+      { "date": "November 1992", "event": "Whitney Houston's version released for The Bodyguard" },
+      { "date": "1992-1993", "event": "Spent 14 weeks at #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Kiss",
+    "artist": "Prince",
+    "genre": "R&B",
+    "year": "1986",
+    "album": "Parade",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Prince Rogers Nelson was an American singer-songwriter, musician, and record producer. He was known for his eclectic style, flamboyant stage presence, and wide vocal range.",
+    "albumInfo": "Parade is the eighth studio album by Prince, released on March 31, 1986. It served as the soundtrack to the film Under the Cherry Moon.",
+    "history": [
+      { "date": "1985", "event": "Originally written for the band Mazarati" },
+      { "date": "February 1986", "event": "Released as lead single from Parade" },
+      { "date": "1986", "event": "Became Prince's third US number-one single" }
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Killing in the Name",
+    "artist": "Rage Against the Machine",
+    "genre": "Metal",
+    "year": "1992",
+    "album": "Rage Against the Machine",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Rage Against the Machine is an American rock band from Los Angeles, California. Known for their blend of rock, hip hop, and politically charged lyrics.",
+    "albumInfo": "Rage Against the Machine is the debut studio album by the band, released on November 3, 1992. It has been certified triple platinum in the US.",
+    "history": [
+      { "date": "1991", "event": "Written about police brutality and institutional racism" },
+      { "date": "1992", "event": "Released as part of debut album" },
+      { "date": "2009", "event": "Became UK Christmas number one after internet campaign" }
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Chop Suey!",
+    "artist": "System of a Down",
+    "genre": "Metal",
+    "year": "2001",
+    "album": "Toxicity",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "System of a Down is an Armenian-American heavy metal band from Glendale, California. They are known for their unique style that blends metal with Armenian folk music.",
+    "albumInfo": "Toxicity is the second studio album by System of a Down, released on September 4, 2001. It debuted at number one on the Billboard 200.",
+    "history": [
+      { "date": "2000", "event": "Written about self-righteous suicide" },
+      { "date": "September 2001", "event": "Released as lead single from Toxicity" },
+      { "date": "2001", "event": "Became band's breakthrough hit worldwide" }
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Take Five",
+    "artist": "Dave Brubeck Quartet",
+    "genre": "Jazz",
+    "year": "1959",
+    "album": "Time Out",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "The Dave Brubeck Quartet was an American jazz group led by pianist Dave Brubeck. The classic quartet featured Paul Desmond on alto saxophone.",
+    "albumInfo": "Time Out is a jazz album by the Dave Brubeck Quartet, released in 1959. It was the first jazz album to sell over a million copies.",
+    "history": [
+      { "date": "1959", "event": "Written by Paul Desmond in 5/4 time signature" },
+      { "date": "1959", "event": "Recorded for Time Out album" },
+      { "date": "1961", "event": "Released as single, became unlikely hit" }
+    ]
+  },
+  {
+    "id": "34",
+    "title": "So What",
+    "artist": "Miles Davis",
+    "genre": "Jazz",
+    "year": "1959",
+    "album": "Kind of Blue",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Miles Dewey Davis III was an American trumpeter, bandleader, and composer. He is among the most influential and acclaimed figures in the history of jazz and 20th-century music.",
+    "albumInfo": "Kind of Blue is a studio album by Miles Davis, released on August 17, 1959. It is the best-selling jazz record of all time.",
+    "history": [
+      { "date": "1959", "event": "Based on modal jazz scales rather than chord changes" },
+      { "date": "March 1959", "event": "Recorded in just two sessions" },
+      { "date": "1959-present", "event": "Became one of the most influential jazz recordings ever" }
+    ]
+  },
+  {
+    "id": "35",
+    "title": "A Love Supreme",
+    "artist": "John Coltrane",
+    "genre": "Jazz",
+    "year": "1965",
+    "album": "A Love Supreme",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "John William Coltrane was an American jazz saxophonist, bandleader, and composer. He is among the most influential and acclaimed figures in jazz history.",
+    "albumInfo": "A Love Supreme is a studio album by John Coltrane, released in 1965. It is considered one of the greatest jazz albums ever recorded.",
+    "history": [
+      { "date": "1964", "event": "Written as spiritual devotion and musical prayer" },
+      { "date": "December 1964", "event": "Recorded in one session" },
+      { "date": "1965", "event": "Released to critical acclaim and commercial success" }
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "genre": "Jazz",
+    "year": "1964",
+    "album": "It Might as Well Be Swing",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Francis Albert Sinatra was an American singer and actor. Nicknamed 'The Chairman of the Board', he is considered one of the greatest singers of all time.",
+    "albumInfo": "It Might as Well Be Swing is an album by Frank Sinatra with Count Basie and his orchestra, released in 1964.",
+    "history": [
+      { "date": "1954", "event": "Written by Bart Howard as 'In Other Words'" },
+      { "date": "1964", "event": "Sinatra's version arranged by Quincy Jones" },
+      { "date": "1969", "event": "Played during Apollo 11 moon landing" }
+    ]
+  },
+  {
+    "id": "37",
+    "title": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "genre": "Jazz",
+    "year": "1967",
+    "album": "What a Wonderful World",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Louis Daniel Armstrong was an American trumpeter and vocalist. His career spanned five decades and had a profound influence on jazz.",
+    "albumInfo": "What a Wonderful World is an album by Louis Armstrong, released in 1968. The title track became one of his most beloved recordings.",
+    "history": [
+      { "date": "1967", "event": "Written by Bob Thiele and George David Weiss" },
+      { "date": "1967", "event": "Initially a flop in US but hit in UK" },
+      { "date": "1987", "event": "Gained new popularity after use in Good Morning, Vietnam" }
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "genre": "Hip-Hop",
+    "year": "2002",
+    "album": "8 Mile Soundtrack",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Marshall Bruce Mathers III, known as Eminem, is an American rapper, songwriter, and record producer. He is cited as one of the greatest and most influential rappers of all time.",
+    "albumInfo": "Music from and Inspired by the Motion Picture 8 Mile is the soundtrack album for the 2002 film 8 Mile.",
+    "history": [
+      { "date": "2002", "event": "Written on set of 8 Mile movie" },
+      { "date": "October 2002", "event": "Released as lead single from soundtrack" },
+      { "date": "2003", "event": "Won Academy Award for Best Original Song" }
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Stan",
+    "artist": "Eminem",
+    "genre": "Hip-Hop",
+    "year": "2000",
+    "album": "The Marshall Mathers LP",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Eminem is known for his controversies and lyrical ability. His alter ego Slim Shady has been a recurring persona throughout his career.",
+    "albumInfo": "The Marshall Mathers LP is the third studio album by Eminem, released on May 23, 2000. It is one of the fastest-selling albums in US history.",
+    "history": [
+      { "date": "2000", "event": "Written about obsessive fandom and its consequences" },
+      { "date": "2000", "event": "Features interpolation of Dido's 'Thank You'" },
+      { "date": "2000-present", "event": "'Stan' became slang term for obsessive fan" }
+    ]
+  },
+  {
+    "id": "40",
+    "title": "Juicy",
+    "artist": "The Notorious B.I.G.",
+    "genre": "Hip-Hop",
+    "year": "1994",
+    "album": "Ready to Die",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Christopher George Latore Wallace, known as The Notorious B.I.G. or Biggie Smalls, was an American rapper widely considered one of the greatest rappers of all time.",
+    "albumInfo": "Ready to Die is the debut studio album by The Notorious B.I.G., released on September 13, 1994. It is considered one of the greatest hip-hop albums ever.",
+    "history": [
+      { "date": "1994", "event": "Written as autobiographical rags-to-riches story" },
+      { "date": "August 1994", "event": "Released as debut single" },
+      { "date": "1994-present", "event": "Became hip-hop anthem and cultural touchstone" }
+    ]
+  },
+  {
+    "id": "41",
+    "title": "N.Y. State of Mind",
+    "artist": "Nas",
+    "genre": "Hip-Hop",
+    "year": "1994",
+    "album": "Illmatic",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Nasir bin Olu Dara Jones, known as Nas, is an American rapper and songwriter. He is considered one of the greatest and most influential MCs of all time.",
+    "albumInfo": "Illmatic is the debut studio album by Nas, released on April 19, 1994. It is widely regarded as one of the greatest hip-hop albums ever made.",
+    "history": [
+      { "date": "1994", "event": "Produced by DJ Premier with immediate impact" },
+      { "date": "April 1994", "event": "Released as part of Illmatic" },
+      { "date": "1994-present", "event": "Considered pinnacle of East Coast hip-hop lyricism" }
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Nuthin' but a 'G' Thang",
+    "artist": "Dr. Dre",
+    "genre": "Hip-Hop",
+    "year": "1992",
+    "album": "The Chronic",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Andre Romelle Young, known as Dr. Dre, is an American rapper, record producer, and entrepreneur. He is credited as a key figure in the popularization of West Coast G-funk.",
+    "albumInfo": "The Chronic is the debut solo studio album by Dr. Dre, released on December 15, 1992. It redefined West Coast hip-hop and launched several careers.",
+    "history": [
+      { "date": "1992", "event": "Written with Snoop Dogg, who was introduced on this track" },
+      { "date": "November 1992", "event": "Released as lead single from The Chronic" },
+      { "date": "1993", "event": "Reached #2 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "43",
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "genre": "Hip-Hop",
+    "year": "2017",
+    "album": "DAMN.",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Kendrick Lamar Duckworth is an American rapper and songwriter. He is widely regarded as one of the most influential rappers of his generation.",
+    "albumInfo": "DAMN. is the fourth studio album by Kendrick Lamar, released on April 14, 2017. It won the Pulitzer Prize for Music in 2018.",
+    "history": [
+      { "date": "2017", "event": "Produced by Mike WiLL Made-It" },
+      { "date": "March 2017", "event": "Released as lead single from DAMN." },
+      { "date": "2018", "event": "Won Grammy for Best Rap Song and Best Rap Performance" }
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Sicko Mode",
+    "artist": "Travis Scott",
+    "genre": "Hip-Hop",
+    "year": "2018",
+    "album": "Astroworld",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Jacques Berman Webster II, known as Travis Scott, is an American rapper, singer, and record producer known for his atmospheric production style.",
+    "albumInfo": "Astroworld is the third studio album by Travis Scott, released on August 3, 2018. It debuted at number one on the Billboard 200.",
+    "history": [
+      { "date": "2018", "event": "Features Drake and multiple beat switches" },
+      { "date": "August 2018", "event": "Released as part of Astroworld" },
+      { "date": "2018", "event": "Reached #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Summertime",
+    "artist": "DJ Jazzy Jeff & The Fresh Prince",
+    "genre": "Hip-Hop",
+    "year": "1991",
+    "album": "Homebase",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "DJ Jazzy Jeff & The Fresh Prince was an American hip-hop duo consisting of DJ Jazzy Jeff and Will Smith (The Fresh Prince).",
+    "albumInfo": "Homebase is the fourth studio album by DJ Jazzy Jeff & The Fresh Prince, released in 1991. It marked a more mature sound for the duo.",
+    "history": [
+      { "date": "1991", "event": "Written as nostalgic summer anthem" },
+      { "date": "1991", "event": "Released as lead single from Homebase" },
+      { "date": "1992", "event": "Won Grammy for Best Rap Performance by a Duo or Group" }
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "genre": "Electronic",
+    "year": "1997",
+    "album": "Homework",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Daft Punk was a French electronic music duo consisting of Thomas Bangalter and Guy-Manuel de Homem-Christo. They are pioneers of French house music.",
+    "albumInfo": "Homework is the debut studio album by Daft Punk, released on January 20, 1997. It is considered a landmark in electronic and house music.",
+    "history": [
+      { "date": "1997", "event": "Written with repetitive hook sung 144 times" },
+      { "date": "April 1997", "event": "Released as second single from Homework" },
+      { "date": "1997", "event": "Music video by Michel Gondry became iconic" }
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Get Lucky",
+    "artist": "Daft Punk",
+    "genre": "Electronic",
+    "year": "2013",
+    "album": "Random Access Memories",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Daft Punk are known for their visual stylization and disguises, appearing in public wearing robot helmets and gloves.",
+    "albumInfo": "Random Access Memories is the fourth studio album by Daft Punk, released on May 17, 2013. It won Album of the Year at the 2014 Grammy Awards.",
+    "history": [
+      { "date": "2013", "event": "Written with Pharrell Williams and Nile Rodgers" },
+      { "date": "April 2013", "event": "Released as lead single" },
+      { "date": "2014", "event": "Won Grammy Awards for Record of the Year and Best Pop Duo/Group Performance" }
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Sandstorm",
+    "artist": "Darude",
+    "genre": "Electronic",
+    "year": "1999",
+    "album": "Before the Storm",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Ville Virtanen, known by his stage name Darude, is a Finnish DJ and record producer best known for his platinum-selling single 'Sandstorm'.",
+    "albumInfo": "Before the Storm is the debut studio album by Darude, released in 2000. It features the worldwide hit 'Sandstorm'.",
+    "history": [
+      { "date": "1999", "event": "Written as instrumental trance track" },
+      { "date": "November 1999", "event": "Released in Finland, becoming instant hit" },
+      { "date": "2000-present", "event": "Became internet meme and sports stadium anthem" }
+    ]
+  },
+  {
+    "id": "49",
+    "title": "Levels",
+    "artist": "Avicii",
+    "genre": "Electronic",
+    "year": "2011",
+    "album": "Levels (Single)",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Tim Bergling, known professionally as Avicii, was a Swedish DJ, remixer, and record producer. He is considered one of the most influential artists in electronic dance music.",
+    "albumInfo": "Levels was released as a single in 2011 and later included on various compilations. It became Avicii's breakthrough hit.",
+    "history": [
+      { "date": "2011", "event": "Written with Etta James vocal sample" },
+      { "date": "October 2011", "event": "Released as single" },
+      { "date": "2011-2012", "event": "Reached top 10 in multiple countries worldwide" }
+    ]
+  },
+  {
+    "id": "50",
+    "title": "Titanium",
+    "artist": "David Guetta ft. Sia",
+    "genre": "Electronic",
+    "year": "2011",
+    "album": "Nothing but the Beat",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Pierre David Guetta is a French DJ and record producer. He has sold over 50 million records worldwide and has been named the number one DJ by DJ Mag.",
+    "albumInfo": "Nothing but the Beat is the fifth studio album by David Guetta, released on August 26, 2011. It featured multiple chart-topping singles.",
+    "history": [
+      { "date": "2011", "event": "Written by Sia, originally intended for Alicia Keys" },
+      { "date": "December 2011", "event": "Released as fourth single from album" },
+      { "date": "2012", "event": "Reached #1 in multiple countries" }
+    ]
+  },
+  {
+    "id": "51",
+    "title": "Strobe",
+    "artist": "Deadmau5",
+    "genre": "Electronic",
+    "year": "2009",
+    "album": "For Lack of a Better Name",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Joel Thomas Zimmerman, known professionally as Deadmau5, is a Canadian electronic music producer and DJ known for his progressive house and techno.",
+    "albumInfo": "For Lack of a Better Name is the fourth studio album by Deadmau5, released on September 22, 2009.",
+    "history": [
+      { "date": "2009", "event": "Written as 10-minute progressive house epic" },
+      { "date": "2009", "event": "Released as part of For Lack of a Better Name" },
+      { "date": "2009-present", "event": "Considered one of the greatest electronic tracks ever made" }
+    ]
+  },
+  {
+    "id": "52",
+    "title": "Scary Monsters and Nice Sprites",
+    "artist": "Skrillex",
+    "genre": "Electronic",
+    "year": "2010",
+    "album": "Scary Monsters and Nice Sprites EP",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Sonny John Moore, known professionally as Skrillex, is an American DJ and record producer. He is credited with popularizing dubstep in America.",
+    "albumInfo": "Scary Monsters and Nice Sprites is the second extended play by Skrillex, released on October 22, 2010. It brought dubstep into the mainstream.",
+    "history": [
+      { "date": "2010", "event": "Written with aggressive dubstep drops" },
+      { "date": "October 2010", "event": "Released as title track of EP" },
+      { "date": "2012", "event": "Won Grammy Awards for Best Dance Recording and Best Dance/Electronica Album" }
+    ]
+  },
+  {
+    "id": "53",
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "genre": "Electronic",
+    "year": "1983",
+    "album": "Blue Monday (Single)",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "New Order are an English rock band formed in Manchester in 1980. They emerged from the remains of Joy Division following the suicide of singer Ian Curtis.",
+    "albumInfo": "Blue Monday was released as a single in 1983. It is the best-selling 12-inch single of all time.",
+    "history": [
+      { "date": "1983", "event": "Written with pioneering use of sequencers and drum machines" },
+      { "date": "March 1983", "event": "Released as single with iconic Peter Saville sleeve" },
+      { "date": "1983", "event": "Became influential electronic dance track" }
+    ]
+  },
+  {
+    "id": "54",
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "genre": "Electronic",
+    "year": "2000",
+    "album": "Discovery",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Daft Punk achieved critical and commercial success with their albums Homework and Discovery, helping to popularize French house.",
+    "albumInfo": "Discovery is the second studio album by Daft Punk, released on March 12, 2001. It was accompanied by the anime film Interstella 5555.",
+    "history": [
+      { "date": "2000", "event": "Written with heavily compressed and filtered vocals" },
+      { "date": "November 2000", "event": "Released as lead single from Discovery" },
+      { "date": "2001", "event": "Became club anthem and Daft Punk's most successful single" }
+    ]
+  },
+  {
+    "id": "55",
+    "title": "Uptown Funk",
+    "artist": "Mark Ronson ft. Bruno Mars",
+    "genre": "Pop",
+    "year": "2014",
+    "album": "Uptown Special",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Mark Daniel Ronson is a British-American DJ, songwriter, and record producer. Bruno Mars is an American singer-songwriter known for his retro style.",
+    "albumInfo": "Uptown Special is the fourth studio album by Mark Ronson, released on January 13, 2015. It features collaborations with various artists.",
+    "history": [
+      { "date": "2014", "event": "Written over several sessions spanning a year" },
+      { "date": "November 2014", "event": "Released as lead single" },
+      { "date": "2015", "event": "Spent 14 weeks at #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "56",
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "genre": "Pop",
+    "year": "2010",
+    "album": "21",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Adele Laurie Blue Adkins is an English singer-songwriter known for her powerful vocals and emotional ballads.",
+    "albumInfo": "21 is the second studio album by Adele, released on January 24, 2011. It has sold over 31 million copies worldwide.",
+    "history": [
+      { "date": "2010", "event": "Written after end of relationship" },
+      { "date": "November 2010", "event": "Released as lead single from 21" },
       {
-        "date": "2019",
-        "event": "Written and produced with Max Martin and Oscar Holter"
-      },
-      {
-        "date": "November 2019",
-        "event": "Released as the second single from After Hours"
-      },
-      {
-        "date": "2020-2021",
-        "event": "Became the longest-charting song in Billboard Hot 100 history"
+        "date": "2012",
+        "event": "Won Grammy Awards for Record of the Year, Song of the Year, and Best Short Form Music Video"
       }
+    ]
+  },
+  {
+    "id": "57",
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "genre": "Pop",
+    "year": "2011",
+    "album": "21",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Adele is one of the world's best-selling music artists, with sales of over 120 million records.",
+    "albumInfo": "21 spent 24 weeks at number one on the Billboard 200, the longest for any album since 1993.",
+    "history": [
+      { "date": "2011", "event": "Written with Dan Wilson about acceptance of a breakup" },
+      { "date": "January 2011", "event": "Released as second single from 21" },
+      { "date": "2011", "event": "Iconic Brit Awards performance brought song to international attention" }
+    ]
+  },
+  {
+    "id": "58",
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "genre": "Pop",
+    "year": "1985",
+    "album": "Hunting High and Low",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "a-ha is a Norwegian synth-pop band formed in Oslo in 1982. The band consists of Morten Harket (vocals), Magne Furuholmen (keyboards), and Pål Waaktaar-Savoy (guitars).",
+    "albumInfo": "Hunting High and Low is the debut studio album by a-ha, released on June 1, 1985. It has sold over 11 million copies worldwide.",
+    "history": [
+      { "date": "1984", "event": "Originally released but failed to chart" },
+      { "date": "1985", "event": "Re-released with groundbreaking rotoscoped music video" },
+      { "date": "1985", "event": "Reached #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "59",
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "genre": "Pop",
+    "year": "1983",
+    "album": "She's So Unusual",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Cynthia Ann Stephanie Lauper is an American singer, songwriter, and actress. She is known for her distinctive image and powerful vocals.",
+    "albumInfo": "She's So Unusual is the debut solo studio album by Cyndi Lauper, released on October 14, 1983. She became the first female artist to have four top-five singles from a debut album.",
+    "history": [
+      { "date": "1979", "event": "Originally written by Robert Hazard with different lyrics" },
+      { "date": "1983", "event": "Lauper rewrote lyrics from female perspective" },
+      { "date": "1984", "event": "Became feminist anthem and cultural touchstone" }
+    ]
+  },
+  {
+    "id": "60",
+    "title": "No Diggity",
+    "artist": "Blackstreet ft. Dr. Dre",
+    "genre": "R&B",
+    "year": "1996",
+    "album": "Another Level",
+    "cover": "/placeholder.svg?height=300&width=300&B+group+portrait=",
+    "artistInfo": "Blackstreet was an American R&B group formed by Teddy Riley in 1991. They were prominent figures in the new jack swing and R&B genres.",
+    "albumInfo": "Another Level is the second studio album by Blackstreet, released on September 10, 1996. It is the group's most successful album.",
+    "history": [
+      { "date": "1996", "event": "Written with Dr. Dre and Queen Pen feature" },
+      { "date": "September 1996", "event": "Released as lead single" },
+      { "date": "1996", "event": "Spent four weeks at #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "61",
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "genre": "R&B",
+    "year": "1995",
+    "album": "CrazySexyCool",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "TLC is one of the best-selling girl groups of all time, known for addressing social issues in their music.",
+    "albumInfo": "CrazySexyCool is the second studio album by TLC, released on November 15, 1994. It has been certified diamond in the US.",
+    "history": [
+      { "date": "1994", "event": "Written about AIDS and drug dealing" },
+      { "date": "May 1995", "event": "Released as third single from CrazySexyCool" },
+      { "date": "1995", "event": "Spent seven weeks at #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "62",
+    "title": "Crazy in Love",
+    "artist": "Beyoncé ft. Jay-Z",
+    "genre": "R&B",
+    "year": "2003",
+    "album": "Dangerously in Love",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Beyoncé launched her solo career in 2003 after the hiatus of Destiny's Child, becoming one of the best-selling music artists of all time.",
+    "albumInfo": "Dangerously in Love is the debut solo studio album by Beyoncé, released on June 24, 2003. It debuted at number one on the Billboard 200.",
+    "history": [
+      { "date": "2003", "event": "Written with Rich Harrison using Chi-Lites horn sample" },
+      { "date": "May 2003", "event": "Released as lead single" },
+      { "date": "2004", "event": "Won Grammy for Best R&B Song and Best Rap/Sung Collaboration" }
+    ]
+  },
+  {
+    "id": "63",
+    "title": "Yeah!",
+    "artist": "Usher ft. Lil Jon & Ludacris",
+    "genre": "R&B",
+    "year": "2004",
+    "album": "Confessions",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Usher has won eight Grammy Awards and has sold over 80 million records worldwide.",
+    "albumInfo": "Confessions spent nine non-consecutive weeks at number one and has sold over 10 million copies in the US alone.",
+    "history": [
+      { "date": "2004", "event": "Written with Lil Jon's signature crunk production style" },
+      { "date": "January 2004", "event": "Released as lead single from Confessions" },
+      { "date": "2004", "event": "Spent 12 weeks at #1 on Billboard Hot 100" }
+    ]
+  },
+  {
+    "id": "64",
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "genre": "Rock",
+    "year": "1969",
+    "album": "Abbey Road",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "The Beatles were an English rock band formed in Liverpool in 1960. They are considered the most influential band of all time.",
+    "albumInfo": "Abbey Road is the eleventh studio album by the Beatles, released on 26 September 1969. It features the iconic zebra crossing cover.",
+    "history": [
+      { "date": "1969", "event": "Written by John Lennon, originally for Timothy Leary's political campaign" },
+      { "date": "September 1969", "event": "Released as double A-side single with 'Something'" },
+      { "date": "1969", "event": "Reached #1 in multiple countries" }
+    ]
+  },
+  {
+    "id": "65",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "genre": "Rock",
+    "year": "1977",
+    "album": "Hotel California",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "The Eagles are an American rock band formed in Los Angeles in 1971. They are one of the world's best-selling bands of all time.",
+    "albumInfo": "Hotel California is the fifth studio album by the Eagles, released on December 8, 1976. It is one of the best-selling albums of all time.",
+    "history": [
+      { "date": "1976", "event": "Written as commentary on American excess and hedonism" },
+      { "date": "February 1977", "event": "Released as single" },
+      { "date": "1978", "event": "Won Grammy for Record of the Year" }
+    ]
+  },
+  {
+    "id": "66",
+    "title": "Comfortably Numb",
+    "artist": "Pink Floyd",
+    "genre": "Rock",
+    "year": "1979",
+    "album": "The Wall",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Pink Floyd were an English rock band formed in London in 1965. They achieved international acclaim with their progressive and psychedelic music.",
+    "albumInfo": "The Wall is the eleventh studio album by Pink Floyd, released on 30 November 1979. It is a rock opera about self-imposed isolation.",
+    "history": [
+      { "date": "1979", "event": "Written by Roger Waters and David Gilmour" },
+      { "date": "1979", "event": "Features one of rock's greatest guitar solos" },
+      { "date": "1979-present", "event": "Consistently voted one of the greatest songs ever" }
+    ]
+  },
+  {
+    "id": "67",
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "genre": "Grunge",
+    "year": "1991",
+    "album": "Nevermind",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Nirvana was an American rock band formed in Aberdeen, Washington, in 1987.",
+    "albumInfo": "Nevermind has sold over 30 million copies worldwide.",
+    "history": [{ "date": "1991", "event": "Changed music landscape overnight" }]
+  },
+  {
+    "id": "68",
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "genre": "Rock",
+    "year": "1992",
+    "album": "Use Your Illusion I",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Guns N' Roses are an American hard rock band known for their explosive live performances and hard-living lifestyle.",
+    "albumInfo": "Use Your Illusion I is the third studio album by Guns N' Roses, released on September 17, 1991.",
+    "history": [
+      { "date": "1986", "event": "Written by Axl Rose, based on an earlier composition" },
+      { "date": "1992", "event": "Released as single with epic music video" },
+      { "date": "1992", "event": "Became one of the most expensive music videos ever made" }
+    ]
+  },
+  {
+    "id": "69",
+    "title": "Purple Haze",
+    "artist": "Jimi Hendrix",
+    "genre": "Rock",
+    "year": "1967",
+    "album": "Are You Experienced",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "James Marshall Hendrix was an American guitarist, singer, and songwriter. He is widely regarded as one of the most influential guitarists in history.",
+    "albumInfo": "Are You Experienced is the debut studio album by the Jimi Hendrix Experience, released in 1967.",
+    "history": [
+      { "date": "1966", "event": "Written allegedly about a vivid dream" },
+      { "date": "March 1967", "event": "Released as single in UK" },
+      { "date": "1967", "event": "Became psychedelic rock anthem" }
+    ]
+  },
+  {
+    "id": "70",
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "genre": "Rock",
+    "year": "1969",
+    "album": "Led Zeppelin II",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Led Zeppelin are widely considered one of the greatest and most influential rock bands in history.",
+    "albumInfo": "Led Zeppelin II is the second studio album by Led Zeppelin, released on 22 October 1969.",
+    "history": [
+      { "date": "1969", "event": "Written during first US tour" },
+      { "date": "October 1969", "event": "Released as part of Led Zeppelin II" },
+      { "date": "1969-present", "event": "Features one of rock's most recognizable riffs" }
+    ]
+  },
+  {
+    "id": "71",
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "genre": "Alternative",
+    "year": "2000",
+    "album": "Hybrid Theory",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Linkin Park is an American rock band from Agoura Hills, California. They pioneered the nu-metal and alternative rock genres in the 2000s.",
+    "albumInfo": "Hybrid Theory is the debut studio album by Linkin Park, released on October 24, 2000. It is one of the best-selling debut albums of all time.",
+    "history": [
+      { "date": "2000", "event": "Written about frustration and futility" },
+      { "date": "October 2001", "event": "Released as fourth single" },
+      { "date": "2001", "event": "Became defining song of early 2000s rock" }
+    ]
+  },
+  {
+    "id": "72",
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "genre": "Alternative",
+    "year": "2003",
+    "album": "Meteora",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Linkin Park achieved mainstream success with Hybrid Theory and Meteora, which combined elements of rock with hip hop.",
+    "albumInfo": "Meteora is the second studio album by Linkin Park, released on March 25, 2003. It debuted at number one on the Billboard 200.",
+    "history": [
+      { "date": "2003", "event": "Written about pressure to conform" },
+      { "date": "September 2003", "event": "Released as third single from Meteora" },
+      { "date": "2003", "event": "Became one of the band's most popular songs" }
+    ]
+  },
+  {
+    "id": "73",
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "genre": "Alternative",
+    "year": "2003",
+    "album": "Hot Fuss",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "The Killers are an American rock band formed in Las Vegas in 2001. The band consists of Brandon Flowers, Dave Keuning, Mark Stoermer, and Ronnie Vannucci Jr.",
+    "albumInfo": "Hot Fuss is the debut studio album by The Killers, released on June 7, 2004. It has sold over 7 million copies worldwide.",
+    "history": [
+      { "date": "2003", "event": "Written by Brandon Flowers about jealousy" },
+      { "date": "2003", "event": "One of the first songs written by the band" },
+      { "date": "2004-present", "event": "Has spent over 300 weeks on UK Singles Chart" }
+    ]
+  },
+  {
+    "id": "74",
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "genre": "Alternative",
+    "year": "2003",
+    "album": "Elephant",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "The White Stripes were an American rock duo formed in Detroit in 1997. The duo consisted of Jack White and Meg White.",
+    "albumInfo": "Elephant is the fourth studio album by The White Stripes, released on April 1, 2003. It won the Grammy Award for Best Alternative Music Album.",
+    "history": [
+      { "date": "2003", "event": "Written with instantly recognizable bass-like guitar riff" },
+      { "date": "March 2003", "event": "Released as lead single from Elephant" },
+      { "date": "2003-present", "event": "Riff became famous sports stadium chant worldwide" }
+    ]
+  },
+  {
+    "id": "75",
+    "title": "Clint Eastwood",
+    "artist": "Gorillaz",
+    "genre": "Alternative",
+    "year": "2001",
+    "album": "Gorillaz",
+    "cover": "/placeholder.svg?height=300&width=300",
+    "artistInfo": "Gorillaz are a British virtual band created in 1998 by musician Damon Albarn and artist Jamie Hewlett. The band consists of four animated members.",
+    "albumInfo": "Gorillaz is the debut studio album by Gorillaz, released on 26 March 2001. It helped pioneer the concept of a virtual band.",
+    "history": [
+      { "date": "2001", "event": "Written with Del the Funky Homosapien rap verses" },
+      { "date": "March 2001", "event": "Released as lead single" },
+      { "date": "2001", "event": "Introduced world to animated band concept" }
     ]
   }
 ]

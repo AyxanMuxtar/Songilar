@@ -132,56 +132,47 @@ function displaySongDetail(song) {
 }
 
 function addToPlaylistFromDetail(songId) {
-  if (!isLoggedIn()) {
-    alert("Please login to add songs to your playlist")
-    window.location.href = "login.html"
-    return
-  }
-
-  const user = getCurrentUser()
-
-  // Get or create default playlist
-  if (!user.playlists) {
-    user.playlists = []
-  }
-
-  let defaultPlaylist = user.playlists.find((p) => p.name === "My Favorites")
-
-  if (!defaultPlaylist) {
-    defaultPlaylist = {
-      id: Date.now().toString(),
-      name: "My Favorites",
-      songs: [],
-    }
-    user.playlists.push(defaultPlaylist)
-  }
-
   // Load song data
   fetch("data/songs.json")
     .then((response) => response.json())
     .then((songs) => {
       const song = songs.find((s) => s.id === songId)
 
-      if (!song) return
-
-      // Check if song already in playlist
-      if (defaultPlaylist.songs.find((s) => s.id === songId)) {
-        alert("Song already in your playlist!")
+      if (!song) {
+        showToast("Song not found", "error")
         return
       }
 
-      defaultPlaylist.songs.push(song)
+      // Get or create playlist in localStorage
+      const playlist = JSON.parse(localStorage.getItem("myPlaylist") || "[]")
 
-      // Update user in storage
-      const users = JSON.parse(localStorage.getItem("users") || "[]")
-      const userIndex = users.findIndex((u) => u.id === user.id)
-      users[userIndex] = user
-      localStorage.setItem("users", JSON.stringify(users))
-      localStorage.setItem("currentUser", JSON.stringify(user))
+      // Check if song already in playlist
+      if (playlist.find((s) => s.id === songId)) {
+        showToast("Song already in your playlist!", "warning")
+        return
+      }
 
-      alert("Song added to your playlist!")
+      playlist.push(song)
+      localStorage.setItem("myPlaylist", JSON.stringify(playlist))
+
+      showToast("Song added to your playlist!", "success")
+    })
+    .catch((error) => {
+      showToast("Error adding song to playlist", "error")
     })
 }
 
 // Initialize
 document.addEventListener("DOMContentLoaded", loadSongDetail)
+
+// Function to show toast messages
+function showToast(message, type) {
+  const toastContainer = document.createElement("div")
+  toastContainer.className = `toast ${type}`
+  toastContainer.textContent = message
+  document.body.appendChild(toastContainer)
+
+  setTimeout(() => {
+    document.body.removeChild(toastContainer)
+  }, 3000)
+}
